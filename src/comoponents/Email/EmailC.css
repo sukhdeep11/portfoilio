@@ -1,0 +1,56 @@
+.inputText{
+    background: transparent;
+    border:2px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    padding: 8px 5px;
+    width: 23rem;
+    
+}
+
+.name, .message, .email{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.message textarea{
+    height: 8rem;
+}
+.name span::after{
+    content: 'Name';
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: -10px;
+    background-color: rgb(23 23 23);
+    left: 12px;
+    padding: 0 5px;
+}
+
+
+
+.email span::after{
+    content: 'Email';
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: -10px;
+    background-color: rgb(23 23 23);
+    left: 12px;
+    padding: 0 5px;
+}
+
+.message span::after{
+    content: 'Message';
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: -10px;
+    background-color: rgb(23 23 23);
+    left: 12px;
+    padding: 0 5px;
+}
+
+
+
